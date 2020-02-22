@@ -125,6 +125,4 @@ void prologue_send(uint8_t id, uint8_t channel, float temperature, uint8_t humid
 	bytes[4] |= (humidity & 0x0F) << 4;
 	
 	send_ppm(bytes, length, 7);
-	
-	_delay_ms(10000);
 }

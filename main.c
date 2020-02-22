@@ -116,7 +116,7 @@ int main()
 				prologue_send(a2, a3, temperature, 11, 1, 0);
 				
 				// wait before going to the next device
-				_delay_ms(10000);
+				_delay_ms(20000);
 				
 				USART_TransmitString("\r\n");
 				

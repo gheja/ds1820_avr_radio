@@ -1,7 +1,3 @@
-#ifndef F_CPU
-#define F_CPU 8000000UL // 8 MHz clock speed
-#endif
-
 #define DDR DDRC
 #define PORT PORTC
 #define PIN_RADIO 0
